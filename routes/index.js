@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('index', { title: 'Welcome from Webstorm to Express' });
+  res.render('index', { title: 'Netxpert - On the Open Web Platform' });
 });
 
 module.exports = router;
